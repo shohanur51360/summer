@@ -1,0 +1,614 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/**********************************************************
+	*** Global css code html code start ***
+**********************************************************/
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: sans-serif;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/**********************************************************
+	*** Global css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Header-section css code html code start ***
+**********************************************************/
+.header-section {
+    width: 100%;
+    background-image: url(../images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0px 563px 0px;
+}
+.header-top{
+    width: 100%;
+    padding: 28px 0px 0px 0px;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0px 54px 0px 0px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0px 0px 0px 54px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #f81d47; 
+	transition: 0.8s;
+}
+.header-bottom {
+    width: 100%;
+    padding: 183px 0px 0px 0px;
+}
+.header-body{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+.header-body h1 {
+    font-size: 62px;
+    font-weight: 900;
+    color: #f81d47;
+    line-height: 81px;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: uppercase;
+    text-align: right;
+}
+.header-body h4 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #e35444;
+    font-weight: 500;
+    text-align: right;
+    padding: 22px 0px 33px 0px;
+}
+.btn-1 {
+    background: #fffae9;
+    color: #dc2a4c;
+    border: 1px solid#fffae9;
+    border-radius: 41px;
+    padding: 12px 53px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-left: 261px;
+}
+.btn-1:hover{
+  background: #f81d47;
+  color: #fff;
+  border: 1px solid#f81d47;
+  transition: 0.8s;
+}
+/**********************************************************
+	*** Header-section css code html code End ***
+**********************************************************/
+
+/**********************************************************
+	*** know-section css code html code start ***
+**********************************************************/
+.know-section {
+    width: 100%;
+    margin: -36px 0px 0px 0px;
+    background: #fffae9;
+}
+.know-title,.know-right,.know-left{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+.know-title h1{
+	text-transform: uppercase;
+    font-size: 62px;
+    font-weight: 500;
+    color: #dc2a4c;
+    line-height: 55px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    margin-bottom: 30px;
+}
+.know-left p,.know-right p {
+    color: #dc254f;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 20px 0px 0px 0px;
+}
+.btn-2 {
+    background: #df3e5b;
+    border-radius: 17px;
+    text-transform: uppercase;
+    border: 1px solid#dc2a4c;
+    padding: 11px 60px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+    margin: 31px 0px 0px 391px;
+}
+.btn-2:hover{
+	background: transparent;
+	color: #dc2a4c;
+	border: 1px solid#dc2a4c;
+	transition: 0.5s;
+}
+/**********************************************************
+	*** know-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Theme-section css code html code start ***
+**********************************************************/
+.theme-section {
+    width: 100%;
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 450px 0px;
+    margin-top: -155px;
+}
+.yellow{
+    width: 100%;
+    padding: 245px 0px 0px 0px;
+}
+.yellow img{
+	width: 95%;
+	margin: 0px 0px 0px 0px;
+}
+.yellow h1 {
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    color: #dc2a4c;
+    margin: 40px 0px 23px 11px;
+}
+.yellow p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #dc2a4c;
+    line-height: 16px;
+    margin: 0px 0px 30px 11px;
+}
+.pink {
+    width: 100%;
+    padding: 315px 0px 0px 0px;
+}
+.pink img{
+	width: 95%;
+	margin: 0px 0px 0px 0px;
+
+} 
+.pink h1{
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    color: #dc2a4c;
+    margin: 40px 0px 23px 11px;
+}
+.pink p{
+   font-size: 13px;
+    font-weight: 500;
+    color: #dc2a4c;
+    line-height: 16px;
+    margin: 0px 0px 30px 11px;
+}
+.blue {
+    width: 100%;
+    padding: 245px 0px 0px 0px;
+}
+.blue img{
+	width: 95%;
+	margin: 0px 0px 0px 0px;
+}
+.blue h1{
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    color: #dc2a4c;
+    margin: 40px 0px 23px 11px;
+}
+.blue p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #dc2a4c;
+    line-height: 16px;
+    margin: 0px 0px 30px 11px;
+}
+.btn-3{
+	color: #dc2a4c;
+    padding: 6px 26px;
+    background: #f1faf9;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 17px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border: 1px solid#f1faf9;
+    margin-left: 15px;
+}
+.btn-3:hover{
+  background: #f81d47;
+  color: #fff;
+  border: 1px solid#f81d47;
+  transition: 0.8s;
+}
+/**********************************************************
+	*** Theme-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Sample-section css code html code start ***
+**********************************************************/
+.sample-section {
+    width: 100%;
+    margin: 173px 0px 0px 0px;
+    background: #fffae9;
+    
+}
+.sample-image {
+    width: 100%;
+    margin: -298px 0px 0px 0px;
+}
+.sample-image img{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+.sample-body{
+	width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: #fffae9;
+    background-image: url(../images/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 626px;
+
+}
+.sample-title,.sample-left,.sample-right{
+	width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.sample-title h1 {
+    text-transform: uppercase;
+    font-size: 62px;
+    font-weight: 500;
+    color: #dc2a4c;
+    line-height: 55px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    margin-bottom: 30px;
+    margin-top: 280px;
+}
+.sample-left p, .sample-right p {
+    color: #dc254f;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 28px 0px 50px 0px;
+}
+.btn-4 {
+    background: #df3e5b;
+    border-radius: 17px;
+    text-transform: uppercase;
+    border: 1px solid#dc2a4c;
+    padding: 11px 60px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+    margin: 0px 0px 0px 391px;
+}
+.btn-4:hover{
+	background: transparent;
+	color: #dc2a4c;
+	border: 1px solid#dc2a4c;
+	transition: 0.5s;
+}
+
+/**********************************************************
+	*** Sample-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Enjoy-section css code html code Start ***
+**********************************************************/
+.enjoy-section {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-image: url(../images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 447px;
+}
+.enjoy-left{
+	width: 100%;
+	margin: 138px 0px 0px 0px;
+}
+.enjoy-right{
+	width: 100%;
+	margin: 138px 0px 0px 0px;
+}
+.write {
+    width: 100%;
+    margin: -244px 0px 0px 0px;
+    padding: 11px 67px;
+}
+.write h1 {
+    text-transform: uppercase;
+    font-size: 37px;
+    font-weight: 600;
+    color: #dc2a4c;
+    line-height: 38px;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 29px;
+}
+.write p{
+	font-size: 18px;
+    color: #dc254f;
+}
+.enjoy-left img{
+	width: 100%;
+}
+.enjoy-right img {
+    width: 100%;
+    height: 334px;
+}
+/**********************************************************
+	*** Enjoy-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Gallery-section css code html code start ***
+**********************************************************/
+.gallery-section {
+    width: 100%;
+    padding: 648px;
+    background-image: url(../images/8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/**********************************************************
+	*** Gallery-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** knows-section css code html code start ***
+**********************************************************/
+.knows-section {
+    width: 100%;
+    margin: -117px 0px 0px 0px;
+    background: #fffae9;
+}
+.knows-title,.knows-right,.knows-left{
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+.knows-title h1{
+	text-transform: uppercase;
+    font-size: 62px;
+    font-weight: 500;
+    color: #dc2a4c;
+    line-height: 55px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    margin-bottom: 30px;
+}
+.knows-left p,.knows-right p {
+    color: #dc254f;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 20px 0px 0px 0px;
+}
+.btn-2 {
+    background: #df3e5b;
+    border-radius: 17px;
+    text-transform: uppercase;
+    border: 1px solid#dc2a4c;
+    padding: 11px 60px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+    margin: 31px 0px 0px 391px;
+}
+.btn-2:hover{
+	background: transparent;
+	color: #dc2a4c;
+	border: 1px solid#dc2a4c;
+	transition: 0.5s;
+}
+/**********************************************************
+	*** know-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Themes-section css code html code start ***
+**********************************************************/
+.themes-section {
+    width: 100%;
+    background-image: url(../images/9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 622px 0px;
+    margin-top: 0px;
+}
+.yellows, .blues {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+.yellows img{
+	width: 95%;
+	margin: 0px 0px 0px 0px;
+}
+.yellows h1 {
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    color: #dc2a4c;
+    margin: 40px 0px 23px 11px;
+}
+.yellows p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #dc2a4c;
+    line-height: 16px;
+    margin: 0px 0px 30px 11px;
+}
+.pinks {
+    width: 100%;
+    margin: -78px 0px 0px 0px;
+}
+.pinks img{
+	width: 95%;
+	margin: 0px 0px 0px 0px;
+
+} 
+.pinks h1{
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    color: #dc2a4c;
+    margin: 40px 0px 23px 11px;
+}
+.pinks p{
+   font-size: 13px;
+    font-weight: 500;
+    color: #dc2a4c;
+    line-height: 16px;
+    margin: 0px 0px 30px 11px;
+}
+.blues img{
+	width: 95%;
+	margin: 0px 0px 0px 0px;
+}
+.blues h1{
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    color: #dc2a4c;
+    margin: 40px 0px 23px 11px;
+}
+.blues p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #dc2a4c;
+    line-height: 16px;
+    margin: 0px 0px 30px 11px;
+}
+.btn-3{
+	color: #dc2a4c;
+    padding: 6px 26px;
+    background: #f1faf9;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 17px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border: 1px solid#f1faf9;
+    margin-left: 15px;
+}
+.btn-3:hover{
+  background: #f81d47;
+  color: #fff;
+  border: 1px solid#f81d47;
+  transition: 0.8s;
+}
+/**********************************************************
+	*** Theme-section css code html code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Footer-section css code html code Start ***
+**********************************************************/
+.footer-section{
+	width: 100%;
+	padding: 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background: #fffae9;
+}
+.footer-1{
+    width: 100%;
+    margin: -124px 0px 57px 25px;
+}
+.footer-2, .footer-3 {
+    width: 100%;
+    margin: -68px 0px 57px 25px;
+}
+.footer-1 h1{
+	 text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 33px;
+    font-weight: 800;
+    color: #dc2a4c;
+}
+.footer-1 p{
+	color: #dc254f;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.footer-2 a.nav-link.active {
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: 800;
+    color: #dc2a4c;
+}
+.footer-2 .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: #dc2a4c;
+}
+.footer-3 ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-3 ul li a i {
+    color: #fff;
+    background: #dc2a4c;
+    border: 1px solid #dc2a4c;
+    padding: 11px 14px;
+    font-size: 30px;
+    margin-right: 10px;
+    border-radius: 40px;
+    transition: 0.8s;
+}
+.footer-3 ul li a i:hover{
+    background: transparent;
+    color: #dc2a4c;
+    border: 1px solid #dc2a4c;
+}
+/**********************************************************
+	*** Footer-section css code html code End ***
+**********************************************************/

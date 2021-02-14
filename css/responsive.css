@@ -1,0 +1,183 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /*css code start*/
+  .navbar-light .navbar-nav .active>.nav-link {
+    padding: 7px 2px 7px 0px!important;
+    background: #f81d47!important;
+    text-align: center!important;
+    margin-top: 10px!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    background: #f81d47!important;
+    text-align: center!important;
+    margin-bottom: 5px!important;
+    padding: 7px 0px 7px 8px!important;
+}
+.header-bottom {
+    padding: 95px 0px 0px 0px!important;
+}
+.header-body h1 {
+    font-size: 58px!important;
+}
+.header-body h4 {
+    font-size: 25px!important;
+}
+.btn-1 {
+    margin-left: 59px!important;
+}
+.know-section {
+    margin: -158px 0px 0px 0px!important;
+}
+.know-title h1 {
+    line-height: 67px!important;
+}
+.know-left p, .know-right p {
+    padding: 20px 0px 0px 8px!important;
+}
+.theme-section {
+    padding: 0px 0px!important;
+    margin-top: -875px!important;
+    height: 3166px;
+}
+.yellow {
+    margin: 721px 0px 0px 0px!important;
+}
+.yellow p{
+    font-size: 12px!important;
+    margin: 0px 0px 30px 11px!important;
+}
+.blue {
+    padding: 65px 0px 0px 0px!important;
+}
+.blue p{
+    font-size: 12px!important;
+    margin: 0px 0px 30px 11px!important;
+}
+.pink {
+    padding: 65px 0px 0px 0px!important;
+}
+.pink p{
+    font-size: 12px!important;
+    margin: 0px 0px 30px 11px!important;
+}
+.sample-section {
+    margin: -51px 0px 0px 0px!important;
+}
+.sample-image {
+    margin: -298px 0px 322px 0px!important;
+}
+.sample-body {
+    margin: -470px 0px 0px 0px!important;
+}
+.sample-left p, .sample-right p {
+    margin: 20px 0px -29px 8px!important;
+}
+.enjoy-section {
+    margin: 277px 0px 0px 0px!important;
+}
+.sample-title, .sample-left, .sample-right {
+    margin: -29px 0px 67px 0px!important;
+}
+.btn-4 {
+    margin: 0px 0px 0px 22px!important;
+}
+.write {
+    padding: 18px 18px!important;
+    margin: -244px 0px 0px 0px!important;
+}
+.enjoy-left img{
+    height: 244px!important;
+}
+.enjoy-right img {
+    height: 244px!important;
+    margin-top: -135px!important;
+}
+.write h1 {
+    font-size: 26px!important;
+}
+.write p {
+    font-size: 16px!important;
+}
+.gallery-section {
+    padding: 0px!important;
+    margin-top: 197px!important;
+    height: 515px!important;
+}
+.knows-title h1 {
+    margin-top: 37px!important;
+}
+.knows-left p, .knows-right p {
+    padding: 20px 0px 0px 8px!important;
+}
+.themes-section {
+    padding: 0px 0px!important;
+    margin-top: -509px!important;
+    height: 3166px;
+}
+.yellows {
+    margin: 649px 0px 50px 0px!important;
+}
+.yellows p{
+    font-size: 12px!important;
+    margin: 0px 0px 30px 11px!important;
+}
+.blues {
+    padding: 43px 0px 0px 0px!important;
+}
+.blues p{
+    font-size: 12px!important;
+    margin: 0px 0px 30px 11px!important;
+}
+.pinks {
+    padding: 65px 0px 0px 0px!important;
+}
+.pinks p{
+    font-size: 12px!important;
+    margin: 0px 0px 30px 11px!important;
+}
+.btn-2 {
+    margin: 31px 0px 0px 48px!important;
+}
+.footer-1 {
+    margin: -726px 0px 57px 12px!important;
+}
+.footer-1 p {
+    font-size: 16px!important;
+    margin-top: 20px!important;
+}
+.footer-2 {
+    margin: -529px 0px 57px 12px!important;
+}
+.footer-3 {
+    margin: -353px 0px 0px 12px!important;
+}
+  /*css code end*/
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+
+
